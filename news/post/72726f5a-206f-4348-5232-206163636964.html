@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HCR2 track ID list</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='file:///C:/Users/Администратор/Downloads/hcr2trackids/main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen'
+        href='file:///C:/Users/Администратор/Downloads/hcr2trackids/style.css'>
+    <script src='file:///C:/Users/Администратор/Downloads/hcr2trackids/details.js'></script>
+    <script>
+        function autoPlay() {
+            let videoplay =
+                document.getElementById('videoplay');
+            videoplay.setAttribute('autoplay', '');
+        }
+
+        function controls() {
+            let control =
+                document.getElementById('videoplay');
+            control.setAttribute('controls', '')
+        }
+
+        function onClickPlay() {
+            document.getElementById('video-player').style.display = "flex"
+            document.getElementById('videoplay').style.display = "flex"
+            document.getElementById("video-thumbnail").style.display = 'none'
+            document.getElementById("playvideo-72726f5a-206f-4348-5232-206163636964").style.display = 'none'
+            let addSrc =
+                document.getElementById('videoplay')
+            addSrc.setAttribute('src', '../../video/72726f5a-206f-4348-5232-206163636964/bandicam 2024-03-10 10-56-38-946.mp4')
+
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <div class="top">
+        <div class="title">
+            <h1>News</h1>
+        </div>
+        <div class="navigation">
+            <a class="button-text" href="../../news.html"><button
+                    id="button">News</button></a> >
+            <button disabled id="disabled-button">72726f5a-206f-4348-5232-206163636964</button>
+        </div>
+    </div>
+    <div class="posts">
+
+        <div class="post" video-play id="72726f5a-206f-4348-5232-206163636964">
+            <div class="video-play-content" style="width: 100%;"><div class="video-play-content-embed ytp-cued-thumbnail-overlay-image" style="background-position: center; background-color: black;">
+                <img style="background-color: black;" id="video-thumbnail" src="file:///C:/Users/Администратор/Pictures/vlcsnap-2024-03-10-12h52m47s222.png">
+                <div class="video-play"
+                    style="max-width: 640px; max-height: 360px; position: absolute; align-items: center; justify-content: center; border-radius: 10px; color: white; flex-direction: column; display: flex; z-index: 1;"
+                    onclick="autoPlay(); controls(); onClickPlay()" id="playvideo-72726f5a-206f-4348-5232-206163636964">
+                    <svg class="play" id="play-button video" viewBox="9 4 12 12" preserveAspectRatio="xMidYMid meet"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z" fill="white">
+                        </path>
+                    </svg>
+                </div>
+                <div class="video-player" id="video-player">
+                    <video controlslist="nodownload" id="videoplay" style="display: none; max-width: 640px; max-height: 360px;">
+                    </video>
+        
+                </div>
+            </div>
+            </div>
+            <div class="video-desc">
+                <div class="member-only-header"></div>
+
+                <div class="member-only-learn-more" id="member-only-learn-more-72726f5a-206f-4348-5232-206163636964">
+                </div>
+
+                <div class="post-content" post-content>
+
+
+
+                    <div class="post-text">
+                        <div class="post-title">
+                            <h2>Zorro HCR2 accidentally swore before stream ends</h2>
+                        </div>
+                        <div class="user-name">by stream-clips</div>
+                        <div class="likes-and-views-amount">
+                            <div class="likes-amount">N/A likes</div>
+                            <div class="views-amount">N/A views</div>
+                        </div>
+                        <div id="more-details-72726f5a-206f-4348-5232-206163636964">
+                            <div class="date-publish">
+                                Mar 10, 2024
+                            </div>
+                            <div class="post-desc">
+                                This clip recorded on:<br>
+                                Microsoft Edge<br>
+                                URL: <a target="_blank" class="description-link"
+                                    href="https://www.youtube.com/embed/_WBGWuGSov4"><img style="margin-right: 4px;"
+                                        width="16px" height="16px" src="../../img/icon/favicon-tbn (1).png">>
+                                    Pain and suffering - HCR2
+                                    Adventure Stream - YouTube</a>
+                                Recorded with Bandicam<br>
+                                Edited with Bandicut
+                            </div>
+                        </div>
+
+                        <div id="buttons-yt-more">
+                            <button id="button-more-72726f5a-206f-4348-5232-206163636964" class="more"
+                                onclick="detailsID72726f5a206f43485232206163636964Show()">Show more</button>
+                            <button id="button-less-72726f5a-206f-4348-5232-206163636964" class="less"
+                                onclick="detailsID72726f5a206f43485232206163636964Hide()">Show less</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

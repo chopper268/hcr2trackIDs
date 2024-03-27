@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HCR2 track ID list</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='file:///C:/Users/Администратор/Downloads/hcr2trackids/main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen'
+        href='file:///C:/Users/Администратор/Downloads/hcr2trackids/style.css'>
+    <script src='file:///C:/Users/Администратор/Downloads/hcr2trackids/details.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen'
+        href='file:///C:/Users/Администратор/Downloads/hcr2trackids/www-player.css'>
+    
+    <script>
+        function autoPlay() {
+            let videoplay =
+                document.getElementById('videoplay');
+            videoplay.setAttribute('autoplay', '');
+        }
+
+        function controls() {
+            let control =
+                document.getElementById('videoplay');
+            control.setAttribute('controls', '')
+        }
+
+        function onClickPlay() {
+            document.getElementById('videoplay').style.display = "block"
+            document.getElementById("video-thumbnail").style.display = 'none'
+            document.getElementById("playvideo-72726f5a-206f-4348-5232-206163636964").style.display = 'none'
+            let addSrc =
+                document.getElementById('videoplay')
+            addSrc.setAttribute('src', 'file:///C:/Users/Администратор/Documents/Bandicut/bandicam 2024-03-10 10-56-38-946.mp4')
+
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+    <div class="video-play-content-embed ytp-cued-thumbnail-overlay-image" style="background-position: center; background-image: url(file:///C:/Users/Администратор/Pictures/vlcsnap-2024-03-10-12h52m47s222.png); min-width: 640px;">
+        <img id="video-thumbnail" src="file:///C:/Users/Администратор/Pictures/vlcsnap-2024-03-10-12h52m47s222.png">
+        <div class="video-play"
+            style="max-width: 640px; max-height: 360px; position: absolute; align-items: center; justify-content: center; border-radius: 10px; color: white; flex-direction: column; display: flex; z-index: 1;"
+            onclick="autoPlay(); controls(); onClickPlay()" id="playvideo-72726f5a-206f-4348-5232-206163636964">
+            <svg class="play" id="play-button video" viewBox="9 4 12 12" preserveAspectRatio="xMidYMid meet"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z" fill="white">
+                </path>
+            </svg>
+        </div>
+        <div class="video-player">
+            <video controlslist="nodownload" id="videoplay" style="display: none; max-width: 640px; max-height: 360px;">
+            </video>
+
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

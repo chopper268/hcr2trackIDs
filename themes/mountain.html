@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HCR2 track ID list</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='../main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='../style.css'>
+</head>
+
+<body onload="startTime()">
+    <div class="track-id-content">
+        <div class="news">
+
+            <iframe class="news-page" id="news-page" src="../news.html"></iframe>
+        </div>
+        <div class="main-content">
+            <div class="top">
+                <div class="title">
+                    <h1>HCR2 track ID list</h1>
+                </div>
+                <div class="theme-filter">
+                    <a class="button-text" href="../index.html"><button id="button">All</button></a>
+                    <a class="button-text" href="countryside.html"><button id="button">Countryside</button></a>
+                    <button id="disabled-button" disabled>Mountain</button>
+
+                </div>
+            </div>
+            <div class="no-tracks">
+                <text class="no-track-available">Unfortunately, no tracks available here.</text>
+            </div>
+            <div class="lack-of-themes">
+                <text class="no-track-available">This page has not all themes.</text>
+            </div>
+            <div class="tracks">
+                <div class="track">
+                    <img class="trackimage" id="track-text-item" title="Mountain"
+                        src="../trackimages/background-menuitem_mountain3.png">
+                    <div class="track-name" id="track-text-item">Thrusters</div>
+                    <div class="player-name" id="track-text-item">Turbo-Speed</div>
+                    <div class="track-id" id="track-text-item">
+                        <a onmouseleave="clickToDownloadTrackMouseLeaveDJQ92()"
+                            onmouseenter="clickToDownloadTrackMouseEnterDJQ92()" id="click-to-download-track-DJQ92"
+                            title="Click to download track" href="https://playhcr.com/track?id=DJQ92">DJQ92</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div style="display: flex; align-items: center; justify-content: end;">
+                    <div class="real-time">
+                        <div class="clock">
+                            <h2 id="clock"></h2>
+                        </div>
+                    </div>
+                    <div class="displayed-tracks-per-page">
+                        <h2>1/1 of 1</h2>
+                    </div>
+                    <div class="show-hide-news">
+                        <input type="button" id="show-news" class="button" onclick="showNews()" value="Show news <<">
+                        <input type="button" id="hide-news" class="button" onclick="hideNews()" value="Hide news >>">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="prev">
+                        <button id="disabled-button" disabled>First</button>
+                        <button id="disabled-button" disabled>Previous</button>
+                    </div>
+                    <div class="page-select">
+                        <button id="disabled-button" disabled>1</button>
+                        <a href="mountain/page2.html" class="button-text"><button id="button">2</button></a>
+                        <a href="mountain/page3.html" class="button-text"><button id="button">3</button></a>
+
+                    </div>
+                    <div class="next">
+                        <a class="button-text" href="mountain/page2.html"><button id="button">Next</button></a>
+
+                        <a class="button-text" href="mountain/page3.html"><button id="button">Last</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../clock.js"></script>
+    <script>
+        function showNews() {
+            document.getElementById('news-page').style.display = "block";
+            document.getElementById('show-news').style.display = "none";
+            document.getElementById('hide-news').style.display = "block";
+        }
+
+        function hideNews() {
+            document.getElementById('news-page').style.display = "none";
+            document.getElementById('show-news').style.display = "block";
+            document.getElementById('hide-news').style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

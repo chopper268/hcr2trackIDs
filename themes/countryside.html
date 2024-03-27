@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HCR2 track ID list</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='../main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen'
+        href='../style.css'>
+</head>
+
+<body onload="startTime()">
+    <style>
+        div.no-tracks {
+            visibility: inherit;
+            height: inherit;
+        }
+    </style>
+    <div class="top">
+        <div class="title">
+            <h1>HCR2 track ID list</h1>
+        </div>
+        <div class="theme-filter">
+            <a id="button" class="button-text"
+                href="../index.html"><button>All</button></a>
+            <button id="disabled-button" disabled>Countryside</button>
+            <a id="button" class="button-text" href="mountain.html"><button>Mountain</button></a>
+
+        </div>
+    </div>
+    <div class="no-tracks">
+        <text class="no-track-available">Unfortunately, no tracks available here.</text>
+    </div>
+    <div class="lack-of-themes">
+        <text class="no-track-available">This page has not all themes.</text>
+    </div>
+    <div class="tracks">
+        <div class="no-results">
+            <text id="noresult" class="no-track-available">No search results available. Try removing some keywords.</text>
+        </div>
+
+    </div>
+    <div class="bottom">
+        <div style="display: flex; justify-content: end;">
+            <div class="real-time">
+                <div><h2 id="clock"></h2></div>
+            </div>
+            <div class="displayed-tracks-per-page"><h2>0/0 of 0</h2></div>
+        </div>
+        <div class="buttons">
+            <div class="prev">
+                <button id="disabled-button" disabled>First</button>
+                <button id="disabled-button" disabled>Previous</button>
+            </div>
+            <div class="page-select">
+                <button id="disabled-button" disabled>1</button>
+                <a href="mountain/page2.html" class="button-text"><button id="button">2</button></a>
+                <a href="mountain/page3.html" class="button-text"><button id="button">3</button></a>
+
+            </div>
+            <div class="next">
+                <a class="button-text" href="mountain/page2.html"><button id="button">Next</button></a>
+                <a class="button-text" href="mountain/page3.html"><button id="button">Last</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="../clock.js"></script>
+    <script>
+        function showNews() {
+            document.getElementById('news-page').style.display = "block";
+            document.getElementById('show-news').style.display = "none";
+            document.getElementById('hide-news').style.display = "block";
+        }
+
+        function hideNews() {
+            document.getElementById('news-page').style.display = "none";
+            document.getElementById('show-news').style.display = "block";
+            document.getElementById('hide-news').style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
