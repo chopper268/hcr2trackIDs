@@ -94,22 +94,3 @@ function loadingComplete() {
         document.getElementById('loading').style.display = "none"
     }, 600);
 }
-function netOff() {
-    document.getElementById("no-internet").style.display = "flex";
-}
-
-window.addEventListener("load", (event) => {
-    const statusDisplay = document.getElementById("status");
-    statusDisplay.textContent = navigator.onLine ? "" : "You're offline. Please connect and press F5 to refresh.";
-})
-
-window.addEventListener("offline", (event) => {
-
-    netOff()
-    const statusDisplay = document.getElementById("status");
-    statusDisplay.textContent = "You're offline. Please connect and press F5 to refresh.";
-})
-
-window.addEventListener("online", (event) => {
-    document.getElementById("no-internet").style.display = "none"
-})
