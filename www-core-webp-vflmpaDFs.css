@@ -1,0 +1,166 @@
+#yt-masthead-content {
+    overflow: hidden
+}
+
+#masthead-search {
+    margin-top: 3px;
+    max-width: 650px;
+    overflow: hidden;
+    padding: 0;
+    position: relative
+}
+
+#masthead-search .search-btn-component,
+#masthead-search .search-btn-component .start {
+    border-left: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-bottom-left-radius: 0
+}
+
+#masthead-search .search-btn-component {
+    float: right
+}
+
+#masthead-search .search-btn-component {
+    height: 29px
+}
+
+.search-btn-component {
+    padding: 0
+}
+
+.yt-uix-button-default,
+.yt-uix-button-default[disabled],
+.yt-uix-button-default[disabled]:hover,
+.yt-uix-button-default[disabled]:active,
+.yt-uix-button-default[disabled]:focus {
+    border-color: #d3d3d3;
+    background: #f8f8f8;
+    color: #333
+}
+
+.yt-uix-button {
+    display: inline-block;
+    height: 28px;
+    border: solid 1px transparent;
+    padding: 0 10px;
+    outline: 0;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    overflow: visible;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05)
+}
+
+@media only screen and (min-width:0px) and (max-width:498px),
+only screen and (min-width:499px) and (max-width:704px) {
+    .exp-responsive #yt-masthead {
+        padding-left: 18px;
+        padding-right: 18px;
+        width: 402px
+    }
+
+    .exp-responsive #yt-masthead .yt-masthead-logo-container {
+        width: auto
+    }
+
+    .exp-responsive #yt-masthead #logo-container {
+        background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vfl2T97zD.webp) -125px -351px;
+        background-size: auto;
+        width: 40px;
+        height: 28px
+    }
+
+    .exp-responsive #yt-masthead #logo-container .logo,
+    .exp-responsive #yt-masthead #logo-container .doodle,
+    .exp-responsive #yt-masthead #logo-container .logo-red,
+    .exp-responsive #yt-masthead #logo-container .content-region,
+    .exp-responsive #ticker.has-arrow .ticker-righthand-content {
+        display: none
+    }
+
+    .exp-responsive #yt-masthead .search-btn-component .yt-uix-button-content {
+        margin: 0 10px
+    }
+}
+
+#masthead-search .search-btn-component .yt-uix-button-content {
+    border: none;
+    border-radius: 0px;
+    display: block;
+    opacity: .6;
+    padding: 0;
+    text-indent: -10000px;
+    background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vfl2T97zD.webp) -131px -174px;
+    background-size: auto;
+    width: 15px;
+    height: 15px;
+    box-shadow: none
+}
+
+@media screen and (max-width:656px) {
+    #yt-masthead .search-btn-component .yt-uix-button-content {
+        margin: 0 10px
+    }
+}
+
+#yt-masthead .search-btn-component .yt-uix-button-content {
+    margin: 0 25px;
+}
+
+
+#masthead-search-terms {
+    background-color: #fff;
+    font-size: 14px;
+    height: 29px;
+    line-height: 30px;
+    margin: 0 0 2px;
+    overflow: hidden;
+    position: relative;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: border-color .2s ease;
+    -webkit-transition: border-color .2s ease;
+    transition: border-color .2s ease
+}
+
+.masthead-search-terms-border {
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 2px #eee
+}
+
+#masthead-search-terms input {
+    background: #00000000;
+    border: 0;
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    outline: none;
+    padding: 2px 6px;
+    position: absolute;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.search-term {
+    width: 100%
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: "YouTube Noto", Roboto, arial, sans-serif;
+    font-size: 13px
+}

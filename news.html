@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>News</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='member-only-learn-more.js'></script>
+    <script src="details.js"></script>
+    <script src="main.js"></script>
+    <link rel="preconnect" href="https://i.ytimg.com">
+    <link rel="preconnect" href="https://youtube.googleapis.com/">
+    <style>
+        div.member-only-header {
+            background-color: rgb(43, 166, 64);
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        text.member-only {
+            margin: 5px;
+        }
+
+        div.member-only-icon {
+            width: 24px;
+            height: 24px;
+            margin: 4px;
+        }
+
+        button.member-only-learn-more-button {
+            background-color: rgb(43, 166, 64);
+            color: white;
+        }
+
+        div.member-only-learn-more-title {
+            display: flex;
+            text-align: left;
+            min-width: 100%;
+        }
+
+        button#button-close {
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="qr-code-content">
+        <div class="qr-code-content-top">
+            <h1 class="qr-code-content-top-text">Scan QR code</h1>
+            <button title="Close" id="qr-code-content-top-close-button" class="qr-code-content-top-close-button"
+                onmouseleave="qrCodeCloseOnhoverEnd()" onmouseenter="qrCodeCloseOnhover()"
+                onclick="qrCodeClose(); qrCodeClosehttpsplayhcrcominviteidqxN5Vr()">
+                <h1 class="qr-code-content-close-button-top-text">X</h1>
+            </button>
+        </div>
+        <div class="qr-code-scan-me">
+            <!-- Internet connection required to load QR codes -->
+            <img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fplayhcr.com%2Finvite%3Fid%3DqxN5Vr&chs=180x180&choe=UTF-8&chld=L|2"
+                class="qr-code" id="qr-code-https%3A%2F%2Fplayhcr.com%2Finvite%3Fid%3DqxN5Vr" rel="nofollow"
+                alt="qr code">
+        </div>
+    </div>
+    <div class="top">
+        <div class="title">
+            <h1>News</h1>
+        </div>
+        <div class="no-connection" id="no-internet">
+            <text style="margin: 0%;" class="no-track-available" id="status"></text>
+        </div>
+        <noscript>
+            <div class="no-js"
+                style="font-family: Roboto, Arial, Helvetica, sans-serif; align-items: center; background-color: rgb(180, 0, 0); display: flex; color: white; font-weight: bold;">
+                <div style="display: flex; align-items: center;" class="ytp-error-icon-container"><svg
+                        style="width: 32px; height: 32px;" fill="#fff" viewBox="0 0 48 48">
+                        <path d="M0 0h48v48H0V0z" fill="none"></path>
+                        <path
+                            d="M22 30h4v4h-4zm0-16h4v12h-4zm1.99-10C12.94 4 4 12.95 4 24s8.94 20 19.99 20S44 35.05 44 24 35.04 4 23.99 4zM24 40c-8.84 0-16-7.16-16-16S15.16 8 24 8s16 7.16 16 16-7.16 16-16 16z"
+                            fill="#fff"></path>
+                    </svg></div>
+                <text style="margin: 5px;" class="no-js-available">Unfortunately, Javascript is disabled in your
+                    browser...</text>
+            </div>
+        </noscript>
+    </div>
+    <div class="no-tracks">
+        <text class="no-track-available">Unfortunately, no news available here.</text>
+    </div>
+    <div class="lack-of-themes">
+    </div>
+    <div class="posts">
+
+        <div class="post" id="45434146-5220-5645-4541-4c204f462046">
+
+            <div class="member-only-header">
+                <div class="member-only-icon" style="fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="16" viewBox="0 0 16 16" width="16" focusable="false"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <path
+                            d="M8 1C4.13 1 1 4.13 1 8s3.13 7 7 7 7-3.13 7-7-3.13-7-7-7zm2.47 10.5L7.99 9.94 5.5 11.5l.67-2.97L4 6.5l2.87-.22L8.01 3.5l1.12 2.78L12 6.5 9.82 8.53l.65 2.97z"
+                            fill-rule="evenodd"></path>
+                    </svg></div><text class="member-only">
+                    Members only video.
+                </text>
+                <button id="button" class="member-only-learn-more-button" onclick="memberOnlyLearnMore()">Learn
+                    more</button>
+            </div>
+            <noscript>
+                <style>
+                    div.member-only-learn-more {
+                        background-color: rgb(43, 166, 64);
+                        position: absolute;
+                        text-align: center;
+                        display: flex;
+                        align-items: start;
+                        flex-direction: column;
+                        width: auto;
+                        margin-right: 10px;
+                        z-index: 1;
+                    }
+                </style>
+            </noscript>
+            <div class="member-only-learn-more" id="member-only-learn-more-45434146-5220-5645-4541-4c204f462046">
+                <div class="member-only-learn-more-title">More...<button id="button-close"
+                        class="member-only-learn-more-button" title="Close"
+                        onclick="closeMemberOnlyLearnMore()">X</button></div>
+                <div>This video is available to this channel's members on level:</div>
+                <div><strong>Best Friend 🗿💪 (or any higher level)</strong>.</div>
+                <div>Join this channel to get access to members-only content and other exclusive perks.</div>
+                <div class="buttons"><a target="_blank" href="https://www.youtube.com/@falconblaze0001/join"><button
+                            id="button" class="member-only-learn-more-button">Join</button></a></div>
+            </div>
+
+            <div class="post-content">
+
+                <div class="duration">
+                    <text class="duration">0:22</text>
+                </div><a target="_blank" title="FACE REVEAL OF FALCON BLAZE 🔥🔥"
+                    onmouseenter="startHover454341465220564545414c204f462046()"
+                    onmouseleave="endHover454341465220564545414c204f462046()"
+                    id="link-45434146-5220-5645-4541-4c204f462046" href="https://www.youtube.com/watch?v=B7ODUgWIx4c">
+                    <div class="thumbnail-hover">
+                        <div class="play" id="play-45434146-5220-5645-4541-4c204f462046">
+                            <svg id="play-button" viewBox="9 4 12 12" preserveAspectRatio="xMidYMid meet"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z" fill="white">
+                                </path>
+                            </svg>
+                            <div>Watch on YouTube</div>
+                        </div>
+                    </div>
+                </a>
+                <img class="postimage" title="FACE REVEAL OF FALCON BLAZE 🔥🔥"
+                    src="https://i.ytimg.com/vi/B7ODUgWIx4c/sddefault.jpg">
+
+                <div class="post-text">
+                    <div class="post-title">
+                        <h2>FACE REVEAL OF FALCON BLAZE 🔥🔥</h2>
+                    </div>
+                    <div class="user-name">by Falcon Blaze</div>
+                    <div class="likes-and-views-amount">
+                        <div class="likes-amount">N/A likes</div>
+                        <div class="views-amount">N/A views</div>
+                    </div>
+                    <div id="more-details-45434146-5220-5645-4541-4c204f462046">
+                        <div class="date-publish">
+                            Feb 4, 2024
+                        </div>
+                        <div class="post-desc">
+                            thanks if u can read this
+                        </div>
+                    </div>
+
+                    <div id="buttons-yt-more">
+                        <div class="link"><a target="_blank" title="Watch on YouTube"
+                                href="https://www.youtube.com/watch?v=B7ODUgWIx4c"><button id="button"
+                                    class="view-on-yt-button">
+                                    <svg id="yt-icon" viewBox="0 0 29 22" preserveAspectRatio="xMidYMid meet"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M27.9727 3.12324C27.6435 1.89323 26.6768 0.926623 25.4468 0.597366C23.2197 2.24288e-07 14.285 0 14.285 0C14.285 0 5.35042 2.24288e-07 3.12323 0.597366C1.89323 0.926623 0.926623 1.89323 0.597366 3.12324C2.24288e-07 5.35042 0 10 0 10C0 10 2.24288e-07 14.6496 0.597366 16.8768C0.926623 18.1068 1.89323 19.0734 3.12323 19.4026C5.35042 20 14.285 20 14.285 20C14.285 20 23.2197 20 25.4468 19.4026C26.6768 19.0734 27.6435 18.1068 27.9727 16.8768C28.5701 14.6496 28.5701 10 28.5701 10C28.5701 10 28.5677 5.35042 27.9727 3.12324Z"
+                                            fill="#FF0000">
+                                        </path>
+                                        <path d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z"
+                                            fill="white">
+                                        </path>
+                                    </svg>Watch on YouTube</button>
+                            </a>
+                        </div>
+                        <button id="button-more-45434146-5220-5645-4541-4c204f462046" class="more"
+                            onclick="detailsID454341465220564545414c204f462046Show()">Show more</button>
+                        <button id="button-less-45434146-5220-5645-4541-4c204f462046" class="less"
+                            onclick="detailsID454341465220564545414c204f462046Hide()">Show less</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="post" id="73627553-7263-6269-6520-746f2043686f">
+            <div class="member-only-header"></div>
+
+            <div class="member-only-learn-more" id="member-only-learn-more-73627553-7263-6269-6520-746f2043686f"></div>
+
+            <div class="post-content">
+
+                <div class="duration"></div>
+                <img class="postimage" style="min-height: 134.63px; min-width: 134.63px; max-width: 134.63px;"
+                    title="Subscribe to Chopper HCR2"
+                    src="https://yt3.googleusercontent.com/z9Z0Ke4xtt2-XtVLxs33yDCLKwMcGYQGeg-y3JIKWaWikmlx5UH3gdrLYRQB3UyBkpG0LBy1hg=s176-c-k-c0x00ffffff-no-rj">
+
+                <div class="post-text">
+                    <div class="post-title">
+                        <h2>Subscribe to Chopper HCR2</h2>
+                    </div>
+                    <div class="user-name">by Chopper HCR2 • 53 subscribers</div>
+                    <div class="likes-and-views-amount">
+                        <div class="likes-amount">N/A likes</div>
+                        <div class="views-amount">10,314 views</div>
+                    </div>
+                    <div id="more-details-73627553-7263-6269-6520-746f2043686f">
+                        <div class="date-publish">
+                            Dec 7, 2022
+                        </div>
+                        <div class="post-desc">
+                            Hello, I'm Chopper!<br>
+                            I play Hill Climb Racing 2, Legend of slime and Minecraft.<br>
+                            I upload Hill Climb Racing 2 related videos.<br>
+                            <br>
+                            Discord: chopperhcr
+                            <br>
+                            Goals<br>
+                            1 subscriber - November 11 2023<br>
+                            5 subscribers - December 25 2023<br>
+                            10 subscribers - January 1 2024<br>
+                            25 subscribers - January 24 2024<br>
+                            50 subscribers - February 24 2024<br>
+                            100 subscribers<br>
+                            250 subscribers<br>
+                            500 subscribers<br>
+                            1000 subscribers
+                        </div>
+                    </div>
+
+                    <div id="buttons-yt-more">
+                        <div class="link" style="max-width: 325px;"><a target="_blank" title="Subscribe"
+                                href="https://www.youtube.com/@ChopperHCR2?sub_confirmation=1"><button
+                                    class="sub-button" id="button" class="subscribe-button">
+                                    <svg id="yt-icon" viewBox="0 0 29 22" preserveAspectRatio="xMidYMid meet"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M27.9727 3.12324C27.6435 1.89323 26.6768 0.926623 25.4468 0.597366C23.2197 2.24288e-07 14.285 0 14.285 0C14.285 0 5.35042 2.24288e-07 3.12323 0.597366C1.89323 0.926623 0.926623 1.89323 0.597366 3.12324C2.24288e-07 5.35042 0 10 0 10C0 10 2.24288e-07 14.6496 0.597366 16.8768C0.926623 18.1068 1.89323 19.0734 3.12323 19.4026C5.35042 20 14.285 20 14.285 20C14.285 20 23.2197 20 25.4468 19.4026C26.6768 19.0734 27.6435 18.1068 27.9727 16.8768C28.5701 14.6496 28.5701 10 28.5701 10C28.5701 10 28.5677 5.35042 27.9727 3.12324Z"
+                                            fill="white">
+                                        </path>
+                                        <path d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z"
+                                            fill="#FF0000">
+                                        </path>
+                                    </svg>Subscribe</button>
+                            </a>
+                            <a onclick="qrCodeOpen(); qrCodeOpenhttpsplayhcrcominviteidqxN5Vr()" target="_blank"
+                                title="Add me as friend in HCR2">
+                                <button style="display: flex; align-items: center;" id="button"
+                                    class="https://playhcr.com/invite?id=qxN5Vr-button"><img class="icon"
+                                        src="img/icon/favicon-tbn.png">Add me as friend
+                                    in HCR2</button>
+                            </a>
+                        </div>
+                        <button id="button-more-73627553-7263-6269-6520-746f2043686f" class="more"
+                            onclick="detailsID73627553726362696520746f2043686fShow()">Show more</button>
+                        <button id="button-less-73627553-7263-6269-6520-746f2043686f" class="less"
+                            onclick="detailsID73627553726362696520746f2043686fHide()">Show less</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="post" id="72726f5a-206f-4348-5232-206163636964">
+
+            <div class="member-only-header"></div>
+
+            <div class="member-only-learn-more" id="member-only-learn-more-72726f5a-206f-4348-5232-206163636964"></div>
+
+            <div class="post-content">
+
+
+                <div class="duration">
+                    <text class="duration">0:20</text>
+                </div>
+                <a title="Zorro HCR2 accidentally swore before stream ends" onmouseenter="startHover()"
+                    onmouseleave="endHover()" id="link-72726f5a-206f-4348-5232-206163636964"
+                    href="news/post/72726f5a-206f-4348-5232-206163636964.html">
+                    <div class="thumbnail-hover">
+                        <div class="play" id="play-72726f5a-206f-4348-5232-206163636964">
+                            <svg id="play-button" viewBox="9 4 12 12" preserveAspectRatio="xMidYMid meet"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z" fill="white">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+                <img class="postimage" title="Zorro HCR2 accidentally swore before stream ends"
+                    src="img/72726f5a-206f-4348-5232-206163636964/vlcsnap-2024-03-10-12h52m47s222.png">
+
+                <div class="post-text">
+                    <div class="post-title">
+                        <a style="color: #fff;" href="news/post/72726f5a-206f-4348-5232-206163636964.html">
+                            <h2>Zorro HCR2 accidentally swore before stream ends</h2>
+                        </a>
+                    </div>
+                    <div class="user-name">by stream-clips</div>
+                    <div class="likes-and-views-amount">
+                        <div class="likes-amount">N/A likes</div>
+                        <div class="views-amount">N/A views</div>
+                    </div>
+                    <div id="more-details-72726f5a-206f-4348-5232-206163636964">
+                        <div class="date-publish">
+                            Mar 10, 2024
+                        </div>
+                        <div class="post-desc">
+                            This clip recorded on:<br>
+                            Microsoft Edge<br>
+                            URL: <a target="_blank" title="Pain and suffering - HCR2 Adventure Stream - YouTube"
+                                class="description-link" href="https://www.youtube.com/embed/_WBGWuGSov4"><img
+                                    style="margin-right: 4px;" width="16px" height="16px"
+                                    src="img/icon/favicon-tbn (1).png">
+                                <h1 class="link-arrow-small">></h1> Pain
+                                and suffering - HCR2
+                                Adventure Stre...
+                            </a>
+                            Recorded with Bandicam<br>
+                            Edited with Bandicut
+                        </div>
+                    </div>
+
+                    <div id="buttons-yt-more">
+                        <button id="button-more-72726f5a-206f-4348-5232-206163636964" class="more"
+                            onclick="detailsID72726f5a206f43485232206163636964Show()">Show more</button>
+                        <button id="button-less-72726f5a-206f-4348-5232-206163636964" class="less"
+                            onclick="detailsID72726f5a206f43485232206163636964Hide()">Show less</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="post" id="e72fd978-b077-bd92-9800-24dca4e0f754">
+            <div class="member-only-header"></div>
+
+            <div class="member-only-learn-more" id="member-only-learn-more-e72fd978-b077-bd92-9800-24dca4e0f754"></div>
+            <div class="post-content">
+                <img class="postimage" style="min-height: 134.63px; min-width: 134.63px; max-width: 134.63px;"
+                    title="PATCH NOTES: HCR2 V1.60.0"
+                    src="https://fingersoft.com/app/uploads/2024/03/hcr2-rollout-mar2024-768x768.jpg">
+                <div class="post-text">
+                    <div class="post-title">
+                        <a style="color: #fff;">
+                            <h2>PATCH NOTES: HCR2 V1.60.0</h2>
+                        </a>
+                    </div>
+                    <div class="user-name">by Fingersoft</div>
+                    <div class="likes-and-views-amount">
+                        <div class="likes-amount">N/A likes</div>
+                        <div class="views-amount">N/A views</div>
+                    </div>
+                    <div id="more-details-e72fd978-b077-bd92-9800-24dca4e0f754">
+                        <div class="date-publish">
+                            Mar 19, 2024
+                        </div>
+                        <div class="post-desc">The latest update for Hill Climb Racing 2 is rolling out <br>now for all
+                            supported platforms! Reach all new heights, <br>both figurative and literal, with a brand
+                            new vehicle, the <br>Hover Bike! We’ve also got a bunch of cool new features <br>floating
+                            around, like League Tasks, Garage Editor <br>improvements, and so much more! <br>Read more
+                            at: <a target="_blank" class="description-link"
+                                href="https://fingersoft.com/news/2024/03/19/patch-notes-hcr2-v1-60-0/"><img
+                                    style="margin-right: 4px;" width="16px" height="16px"
+                                    src="https://fingersoft.com/app/uploads/2019/06/cropped-fs_icon_black_594x900-1-32x32.png">
+                                <h1 class="link-arrow-small">> </h1>PATCH NOTES: HCR2 1.60.0 • Fingersoft
+                            </a></div>
+                    </div>
+
+                    <div id="buttons-yt-more">
+                        <button id="button-more-e72fd978-b077-bd92-9800-24dca4e0f754" class="more"
+                            onclick="detailsIDe72fd978b077bd92980024dca4e0f754Show()">Show more</button>
+                        <button id="button-less-e72fd978-b077-bd92-9800-24dca4e0f754" class="less"
+                            onclick="detailsIDe72fd978b077bd92980024dca4e0f754Hide()">Show less</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="post" id="40ec37db-8abb-9b27-515f-3b9eb52b181d"></div>
+        <div class="post" id="bb1e5b74-277b-9515-f71b-c4c32d873776"></div>
+        <div class="post" id="e6336ea5-931b-597a-24b0-cce66d12ded3"></div>
+        <div class="post" id="a7990e02-1614-4c67-105e-6fdc1557e4f6"></div>
+        <div class="post" id="bce47b12-1c19-c887-b83f-0bc956b9508e"></div>
+        <div class="post" id="ab0804f3-9ac5-0b48-8cb8-7112a3df8924"></div>
+        <div class="post" id="b3817e15-874d-2614-24e7-174b6029820f"></div>
+        <div class="post" id="ba89afe4-4630-f178-ed15-4529911cf261"></div>
+        <div class="post" id="4142bd77-19e6-f65b-d625-45728cd27bd9"></div>
+    </div>
+</body>
+
+</html>
