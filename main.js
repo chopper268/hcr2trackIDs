@@ -94,3 +94,11 @@ function loadingComplete() {
         document.getElementById('loading').style.display = "none"
     }, 600);
 }
+
+function clickToDownloadTrackMouseEnter4YqzD() {
+    document.getElementById('click-to-download-track-4YqzD').setAttribute('class', 'click-to-download-track');
+}
+
+function clickToDownloadTrackMouseLeave4YqzD() {
+    document.getElementById('click-to-download-track-4YqzD').removeAttribute('class');
+}
