@@ -102,3 +102,11 @@ function clickToDownloadTrackMouseEnter4YqzD() {
 function clickToDownloadTrackMouseLeave4YqzD() {
     document.getElementById('click-to-download-track-4YqzD').removeAttribute('class');
 }
+
+function clickToDownloadTrackMouseEnterGo1AR() {
+    document.getElementById('click-to-download-track-Go1AR').setAttribute('class', 'click-to-download-track');
+}
+
+function clickToDownloadTrackMouseLeaveGo1AR() {
+    document.getElementById('click-to-download-track-Go1AR').removeAttribute('class');
+}
