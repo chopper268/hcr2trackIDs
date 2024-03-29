@@ -110,3 +110,11 @@ function clickToDownloadTrackMouseEnterGo1AR() {
 function clickToDownloadTrackMouseLeaveGo1AR() {
     document.getElementById('click-to-download-track-Go1AR').removeAttribute('class');
 }
+
+function clickToDownloadTrackMouseEnterRQr9y() {
+    document.getElementById('click-to-download-track-RQr9y').setAttribute('class', 'click-to-download-track');
+}
+
+function clickToDownloadTrackMouseLeaveRQr9y() {
+    document.getElementById('click-to-download-track-RQr9y').removeAttribute('class');
+}
