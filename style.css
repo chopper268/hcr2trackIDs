@@ -800,3 +800,8 @@ svg.err-icon{
         margin: 0%;
     }
 }
+
+.track-text-item{
+    display: flex;
+    align-content: center;
+}
