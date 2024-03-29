@@ -527,7 +527,9 @@ div.video-play-content {
         display: grid;
         justify-items: end;
         gap: 20px;
-        grid-template-areas: 'videoplaycontent videodesc';
+        grid-template-areas:
+            'memberonly memberonly'
+            'videoplaycontent videodesc';
     }
 
     div.video.desc {
