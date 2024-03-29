@@ -528,7 +528,7 @@ div.video-play-content {
         justify-items: end;
         gap: 20px;
         grid-template-areas:
-            'memberonly memberonly'
+            'memberonly'
             'videoplaycontent videodesc';
     }
 
