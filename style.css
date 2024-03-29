@@ -805,3 +805,7 @@ svg.err-icon{
     display: flex;
     align-content: center;
 }
+
+.track-name{
+    flex-direction: row;
+}
