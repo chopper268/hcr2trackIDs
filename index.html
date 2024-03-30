@@ -20,6 +20,8 @@
             bottom: 150%;
             left: 50%;
             margin-left: -60px;
+            opacity: 0;
+            transition: opacity 200ms;
         }
 
         .tooltip .tooltiptext::after {
@@ -36,6 +38,7 @@
         .tooltip:hover .tooltiptext {
             visibility: visible;
             font-size: 10px;
+            opacity: 1;
         }
     </style>
     <meta charset='utf-8'>
