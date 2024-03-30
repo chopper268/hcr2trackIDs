@@ -22,6 +22,15 @@
                 'memberonly memberonly'
                 'videoplaycontent videodesc';
         }
+
+        @media screen and (max-width:948px){
+            div.video-play-content, div.video-desc{
+                justify-content: center;
+            }
+            div.video-desc{
+                display: flex;
+            }
+        }
     </style>
     <script>
         function autoPlay() {
