@@ -510,8 +510,7 @@ div.video-play-content {
 
 @media screen and (min-width:949px) {
     div.video-play-content {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 0%;
         grid-area: videoplaycontent;
         max-width: 600px;
     }
