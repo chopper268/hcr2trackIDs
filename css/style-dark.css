@@ -103,7 +103,7 @@ div.top {
     position: -webkit-sticky;
     top: 0;
     z-index: 2;
-    border-bottom: 2px solid #005c99;
+    border-bottom: 2px solid #3d3d3d;
 }
 
 div.theme-filter {
@@ -326,6 +326,7 @@ div.center {
 }
 
 input.button {
+    color: #fff;
     background-color: #252525;
 }
 

@@ -810,3 +810,10 @@ svg.err-icon{
     display: flex;
     flex-direction: row;
 }
+
+@media (prefers-color-scheme: dark){
+    button {
+        color: #fff;
+        background-color: #252525;
+    }
+}
