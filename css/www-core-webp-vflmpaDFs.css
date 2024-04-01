@@ -164,3 +164,22 @@ select {
     font-family: "YouTube Noto", Roboto, arial, sans-serif;
     font-size: 13px
 }
+
+@media (prefers-color-scheme: dark) {
+    .masthead-search-terms-border {
+        border: 1px solid rgb(66, 66, 66);
+        box-shadow: inset 0 1px 2px #636363
+    }
+
+    #masthead-search-terms {
+        background-color: #252525;
+    }
+
+    .yt-uix-button-default,
+    .yt-uix-button-default[disabled],
+    .yt-uix-button-default[disabled]:hover,
+    .yt-uix-button-default[disabled]:active,
+    .yt-uix-button-default[disabled]:focus {
+        background: unset;
+    }
+}
