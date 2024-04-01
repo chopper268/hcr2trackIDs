@@ -180,6 +180,6 @@ select {
     .yt-uix-button-default[disabled]:hover,
     .yt-uix-button-default[disabled]:active,
     .yt-uix-button-default[disabled]:focus {
-        background: inherit;
+        background: #252525;
     }
 }
