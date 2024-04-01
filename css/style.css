@@ -874,6 +874,7 @@ svg.err-icon{
 
     div.member-only-learn-more {
         background-color: rgb(93, 255, 120);
+        color: #000;
     }
 
     input.button {
