@@ -52,38 +52,6 @@ function qrCodeCloseOnhoverEnd() {
     document.getElementById('qr-code-content-top-close-button').style.backgroundColor = "#00000033"
 }
 
-function clickToDownloadTrackMouseEnterPX7W2() {
-    document.getElementById('click-to-download-track-PX7W2').setAttribute('class', 'click-to-download-track');
-}
-
-function clickToDownloadTrackMouseLeavePX7W2() {
-    document.getElementById('click-to-download-track-PX7W2').removeAttribute('class')
-}
-
-function clickToDownloadTrackMouseEnterx1gaw() {
-    document.getElementById('click-to-download-track-x1gaw').setAttribute('class', 'click-to-download-track');
-}
-
-function clickToDownloadTrackMouseLeavex1gaw() {
-    document.getElementById('click-to-download-track-x1gaw').removeAttribute('class');
-}
-
-function clickToDownloadTrackMouseEnterDJQ92() {
-    document.getElementById('click-to-download-track-DJQ92').setAttribute('class', 'click-to-download-track');
-}
-
-function clickToDownloadTrackMouseLeaveDJQ92() {
-    document.getElementById('click-to-download-track-DJQ92').removeAttribute('class');
-}
-
-function clickToDownloadTrackMouseEnterln1av() {
-    document.getElementById('click-to-download-track-ln1av').setAttribute('class', 'click-to-download-track');
-}
-
-function clickToDownloadTrackMouseLeaveln1av() {
-    document.getElementById('click-to-download-track-ln1av').removeAttribute('class');
-}
-
 function loadingComplete() {
     let loadComplete =
         document.getElementById('loading')
@@ -93,28 +61,4 @@ function loadingComplete() {
     setTimeout(() => {
         document.getElementById('loading').style.display = "none"
     }, 600);
-}
-
-function clickToDownloadTrackMouseEnter4YqzD() {
-    document.getElementById('click-to-download-track-4YqzD').setAttribute('class', 'click-to-download-track');
-}
-
-function clickToDownloadTrackMouseLeave4YqzD() {
-    document.getElementById('click-to-download-track-4YqzD').removeAttribute('class');
-}
-
-function clickToDownloadTrackMouseEnterGo1AR() {
-    document.getElementById('click-to-download-track-Go1AR').setAttribute('class', 'click-to-download-track');
-}
-
-function clickToDownloadTrackMouseLeaveGo1AR() {
-    document.getElementById('click-to-download-track-Go1AR').removeAttribute('class');
-}
-
-function clickToDownloadTrackMouseEnterRQr9y() {
-    document.getElementById('click-to-download-track-RQr9y').setAttribute('class', 'click-to-download-track');
-}
-
-function clickToDownloadTrackMouseLeaveRQr9y() {
-    document.getElementById('click-to-download-track-RQr9y').removeAttribute('class');
 }

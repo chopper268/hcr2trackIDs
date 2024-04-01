@@ -632,6 +632,11 @@ a[title="Click to download track"] {
     transition: all 200ms;
 }
 
+a[title="Click to download track"]:hover{
+    background-color: #fff;
+    color: blue;
+}
+
 a.click-to-download-track {
     background-color: #fff;
     color: blue;
