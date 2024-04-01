@@ -864,7 +864,7 @@ svg.err-icon{
 
     div.member-only-header {
         color: #000;
-        background-color: rgb(93, 255, 120);
+        background-color: rgb(93, 255, 120) !important;
     }
 
     button.member-only-learn-more-button {
