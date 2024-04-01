@@ -637,11 +637,6 @@ a[title="Click to download track"]:hover{
     color: blue;
 }
 
-a.click-to-download-track {
-    background-color: #fff;
-    color: blue;
-}
-
 div#track-text-item {
     margin: 3px;
 }
