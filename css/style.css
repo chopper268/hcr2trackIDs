@@ -816,4 +816,101 @@ svg.err-icon{
         color: #fff;
         background-color: #252525;
     }
+
+    button:disabled {
+        background-color: #636363;
+        color: #818181;
+    }
+
+    a.button-text {
+        color: rgb(255, 255, 255);
+    }
+
+    body {
+        background-color: #202020;
+    }
+
+    div.no-tracks {
+        background-color: rgb(255, 120, 120);
+        color: rgb(0, 0, 0);
+    }
+
+    div.bottom {
+        color: #fff;
+        background-color: #000000;
+        border-top: 2px solid #3d3d3d;
+    }
+
+    div.top {
+        color: #fff;
+        background-color: #000000;
+        border-bottom: 2px solid #3d3d3d;
+    }
+
+    div.empty {
+        background-color: rgb(255, 120, 120);
+        color: rgb(0, 0, 0);
+    }
+
+    div.lack-of-themes {
+        background-color: rgb(255, 230, 120);
+        color: rgb(0, 0, 0);
+    }
+
+    div.post {
+        background-color: #000;
+        color: white;
+    }
+
+    div.member-only-header {
+        color: #000;
+        background-color: rgb(93, 255, 120);
+    }
+
+    button.member-only-learn-more-button {
+        background-color: rgb(93, 255, 120);
+        color: rgb(0, 0, 0);
+    }
+
+    div.member-only-learn-more {
+        background-color: rgb(93, 255, 120);
+    }
+
+    input.button {
+        color: #fff;
+        background-color: #252525;
+    }
+    
+    input.button:disabled {
+        background-color: #636363;
+        color: #818181;
+    }
+
+    button.sub-button {
+        background-color: rgb(255, 120, 120);
+        color: rgb(0, 0, 0);
+        border-color: rgb(255, 120, 120);
+    }
+
+    a.description-link {
+        border: 1px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+    }
+
+    div#loading {
+        background-color: rgb(41, 41, 41);
+    }
+    
+    pre#text-loading {
+        color: #fff;
+    }
+
+    div.js-none{
+        background-color: #202020;
+    }
+    
+    svg.err-icon{
+        fill: rgb(199, 199, 199) !important;
+    }
 }

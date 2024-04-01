@@ -63,7 +63,7 @@ div.no-tracks {
     height: 0px;
     background-color: rgb(255, 120, 120);
     display: flex;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
@@ -708,7 +708,7 @@ div.news {
 
 div.top {
     grid-area: header;
-    max-height: 113, 88px;
+    max-height: 113,88px;
 }
 
 div.center {
