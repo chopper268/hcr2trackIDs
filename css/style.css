@@ -625,14 +625,14 @@ img.qr-code {
     height: 180px;
 }
 
-a[title="Click to download track"] {
+[title="Click to download track"] {
     border: 1px solid #fff;
     padding-inline: 5px;
     color: #fff;
     transition: all 200ms;
 }
 
-a[title="Click to download track"]:hover{
+[title="Click to download track"]:hover{
     background-color: #fff;
     color: blue;
 }
