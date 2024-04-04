@@ -1,0 +1,13 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #202020;
+    }
+
+    div {
+        background-color: #3a3a3a;
+    }
+
+    p, h1, ul, li {
+        color: white;
+    }
+}
