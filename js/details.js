@@ -45,3 +45,15 @@ function detailsIDe72fd978b077bd92980024dca4e0f754Hide(){
     document.getElementById('button-more-e72fd978-b077-bd92-9800-24dca4e0f754').style.display='flex'
     document.getElementById('button-less-e72fd978-b077-bd92-9800-24dca4e0f754').style.display='none'
 }
+
+function detailsID40ec37db8abb9b27515f3b9eb52b181dShow(){
+    document.getElementById('more-details-40ec37db-8abb-9b27-515f-3b9eb52b181d').style.display='flex'
+    document.getElementById('button-more-40ec37db-8abb-9b27-515f-3b9eb52b181d').style.display='none'
+    document.getElementById('button-less-40ec37db-8abb-9b27-515f-3b9eb52b181d').style.display='flex'
+}
+
+function detailsID40ec37db8abb9b27515f3b9eb52b181dHide(){
+    document.getElementById('more-details-40ec37db-8abb-9b27-515f-3b9eb52b181d').style.display='none'
+    document.getElementById('button-more-40ec37db-8abb-9b27-515f-3b9eb52b181d').style.display='flex'
+    document.getElementById('button-less-40ec37db-8abb-9b27-515f-3b9eb52b181d').style.display='none'
+}
