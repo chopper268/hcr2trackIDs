@@ -916,3 +916,20 @@ svg.err-icon{
         fill: rgb(199, 199, 199) !important;
     }
 }
+
+div#more-details-40ec37db-8abb-9b27-515f-3b9eb52b181d {
+    display: none;
+    flex-direction: column;
+}
+
+button#button-more-40ec37db-8abb-9b27-515f-3b9eb52b181d {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+button#button-less-40ec37db-8abb-9b27-515f-3b9eb52b181d {
+    margin: 5px;
+    display: none;
+    align-items: center;
+}
