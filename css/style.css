@@ -531,7 +531,7 @@ div.video-play-content {
     }
 
     div.video.desc {
-        
+
         grid-area: videodesc;
     }
 }
@@ -632,7 +632,7 @@ img.qr-code {
     transition: all 200ms;
 }
 
-[title="Click to download track"]:hover{
+[title="Click to download track"]:hover {
     background-color: #fff;
     color: blue;
 }
@@ -756,19 +756,19 @@ div.main-content {
     }
 }
 
-.no-connection{
-    
+.no-connection {
+
     background-color: rgb(180, 0, 0);
     display: flex;
     color: white;
     font-weight: bold;
 }
 
-iframe.yt-video-embed{
+iframe.yt-video-embed {
     min-height: 337px;
 }
 
-div.js-none{
+div.js-none {
     position: absolute;
     background-color: #e0e0e0;
     display: flex;
@@ -780,38 +780,39 @@ div.js-none{
     z-index: 5;
 }
 
-div.no-js-icon{
+div.no-js-icon {
     width: 200px;
     height: 200px;
     margin-right: 20px;
 }
 
-svg.err-icon{
+svg.err-icon {
     fill: rgb(66, 66, 66) !important;
 }
 
-@media screen and (max-width:550px){
-    div.js-none{
+@media screen and (max-width:550px) {
+    div.js-none {
         flex-direction: column;
     }
-    div.no-js-icon{
+
+    div.no-js-icon {
         width: 150px;
         height: 150px;
         margin: 0%;
     }
 }
 
-.track-text-item{
+.track-text-item {
     display: flex;
     align-content: center;
 }
 
-.track-name{
+.track-name {
     display: flex;
     flex-direction: row;
 }
 
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
     button {
         color: #fff;
         background-color: #252525;
@@ -881,7 +882,7 @@ svg.err-icon{
         color: #fff;
         background-color: #252525;
     }
-    
+
     input.button:disabled {
         background-color: #636363;
         color: #818181;
@@ -902,17 +903,17 @@ svg.err-icon{
     div#loading {
         background-color: rgb(41, 41, 41);
     }
-    
+
     pre#text-loading {
         color: #fff;
     }
 
-    div.js-none{
+    div.js-none {
         background-color: #202020;
         color: #fff;
     }
-    
-    svg.err-icon{
+
+    svg.err-icon {
         fill: rgb(199, 199, 199) !important;
     }
 }
@@ -934,7 +935,16 @@ button#button-less-40ec37db-8abb-9b27-515f-3b9eb52b181d {
     align-items: center;
 }
 
-div[empty]{
+div[empty] {
     display: none;
     margin: 0%;
+}
+
+video::-webkit-media-controls {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+video:hover::-webkit-media-controls {
+    opacity: 1;
 }
