@@ -933,3 +933,7 @@ button#button-less-40ec37db-8abb-9b27-515f-3b9eb52b181d {
     display: none;
     align-items: center;
 }
+
+div[empty]{
+    display: none;
+}
