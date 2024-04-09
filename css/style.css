@@ -948,3 +948,8 @@ video::-webkit-media-controls {
 video:hover::-webkit-media-controls {
     opacity: 1;
 }
+
+div.menu, a {
+    background-color: #3a3a3a;
+    color: #fff;
+}
