@@ -949,8 +949,12 @@ video:hover::-webkit-media-controls {
     opacity: 1;
 }
 
-div.menu, a {
+div.menu {
     background-color: #3a3a3a;
+    color: #fff;
+}
+
+a.menu-link {
     color: #fff;
     margin: 5px;
 }
