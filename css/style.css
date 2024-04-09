@@ -952,4 +952,5 @@ video:hover::-webkit-media-controls {
 div.menu, a {
     background-color: #3a3a3a;
     color: #fff;
+    margin: 5px;
 }
