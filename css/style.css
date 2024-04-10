@@ -958,3 +958,7 @@ a.menu-link {
     color: #fff;
     margin: 5px;
 }
+
+img.emoji {
+    border-radius: 0px;
+}
