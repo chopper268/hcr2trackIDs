@@ -126,41 +126,49 @@
                     <text class="no-track-available">This page has not all themes.</text>
                 </div>
                 <div class="country-title">
-                    <h1 class="country-title">Tracks in Germany <img class="flag" style="width: 1em; height: auto;" src="../../img/flags/de.png" alt="DE"></h1>
+                    <h1 class="country-title">Tracks in Germany <img class="flag" style="width: 1em; height: auto;"
+                            src="../../img/flags/de.png" alt="DE"></h1>
                 </div>
                 <div class="country-users">
                     <h2 class="country-users-title">Users</h2>
+                    <div class="users">
+                        <div class="user">
+                            <img src="../../img/profile/%7CDC%7CChopper.bmp" alt="Profile image" class="profile-image">
+                        </div>
+                    </div>
                 </div>
                 <div class="country-tracks">
                     <h2 class="country-tracks-title">Tracks</h2>
-                </div>
-                <div class="tracks">
-                    <!--This is an error icon.
-                        <div class="tooltip">
-                            <svg style="width: 14px; height: 14px;" fill="#fff" viewBox="0 0 48 48">
-                                <path d="M0 0h48v48H0V0z" fill="none"></path>
-                                <path
+                    <div class="tracks">
+                        <!--This is an error icon.
+                            <div class="tooltip">
+                                <svg style="width: 14px; height: 14px;" fill="#fff" viewBox="0 0 48 48">
+                                    <path d="M0 0h48v48H0V0z" fill="none"></path>
+                                    <path
                                     d="M22 30h4v4h-4zm0-16h4v12h-4zm1.99-10C12.94 4 4 12.95 4 24s8.94 20 19.99 20S44 35.05 44 24 35.04 4 23.99 4zM24 40c-8.84 0-16-7.16-16-16S15.16 8 24 8s16 7.16 16 16-7.16 16-16 16z"
                                     fill-opacity="0.7">
-                                </path>
-                            </svg>
-                            <span class="tooltiptext">Unable to find track information.</span>
+                                    </path>
+                                </svg>
+                                <span class="tooltiptext">Unable to find track information.</span>
+                            </div>
+                        -->
+                        <!--This is a community showcase icon.
+                            <div class="tooltip">
+                                <img style="width: 14px; height: 14px;" src="img/icon/community-showcase-icon.png">
+                                <span class="tooltiptext">Community showcase track</span>
+                            </div>
+                        -->
+                        <div class="track">
+                            <img class="trackimage" id="track-text-item" title="Gloomvale"
+                                src="../../trackimages/background-menuitem_dark-forest1.png">
+                            <div class="track-name" id="track-text-item" title="Dark Floor is Lava">
+                                Dark Floor i...</div>
+                            <div class="player-name" id="track-text-item">|DC|Chopper</div>
+                            <div id="track-text-item" class="track-id">
+                                <a title="Click to download track" href="../../track/ln1av.html">ln1av</a>
+                            </div>
                         </div>
-                    -->
-                    <!--This is a community showcase icon.
-                        <div class="tooltip">
-                            <img style="width: 14px; height: 14px;" src="img/icon/community-showcase-icon.png">
-                            <span class="tooltiptext">Community showcase track</span>
-                        </div>
-                    -->
-                    <h1 style="color: #fff;">Country list <span
-                            style="background-color: gold; font-style: italic;">test</span></h1>
-                    <ul style="color: #fff;">
-                        <li style="color: #fff; margin: 15px;"><a style="color: #fff;" href="de/main.html">
-                                <img class="flag" style="width: 14px; height: auto;" src="../img/flags/de.png" alt="DE">
-                                Germany</a>
-                        </li>
-                    </ul>
+                    </div>
                 </div>
             </div>
             <div class="bottom">
@@ -196,13 +204,6 @@
             document.getElementById('hide-news').style.display = "none";
         }
     </script>
-    <style>
-        div.tracks {
-            justify-content: unset;
-            flex-direction: column;
-            align-items: center;
-        }
-    </style>
 </body>
 
 </html>
