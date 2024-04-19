@@ -73,7 +73,7 @@
         <pre id="text-loading">loading...</pre>
     </div>
     <div class="track-id-content">
-        <div class="news">
+        <div class="news" id="news">
 
             <iframe class="news-page" id="news-page" src="../../news.html"></iframe>
         </div>
@@ -196,12 +196,14 @@
             document.getElementById('news-page').style.display = "block";
             document.getElementById('show-news').style.display = "none";
             document.getElementById('hide-news').style.display = "block";
+            document.getElementById('news').style.minHeight = "none"
         }
 
         function hideNews() {
             document.getElementById('news-page').style.display = "none";
             document.getElementById('show-news').style.display = "block";
             document.getElementById('hide-news').style.display = "none";
+            document.getElementById('news').style.minHeight = "0%"
         }
     </script>
 </body>
