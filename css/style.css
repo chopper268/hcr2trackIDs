@@ -980,3 +980,8 @@ div.country-container {
         flex-direction: column;
     }
 }
+
+div.user {
+    margin: 10px;
+    align-items: center;
+}
