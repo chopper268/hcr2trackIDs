@@ -990,3 +990,7 @@ div.user {
     margin: 20px;
     color: #fff;
 }
+
+img.profile-image {
+    border-radius: 32px;
+}
