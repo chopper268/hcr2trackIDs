@@ -994,3 +994,11 @@ div.user {
 img.profile-image {
     border-radius: 32px;
 }
+
+a.country-nav.link {
+    cursor: default;
+}
+
+button:disabled.country-nav-button {
+    cursor: not-allowed;
+}
