@@ -996,7 +996,7 @@ img.profile-image {
 }
 
 a.country-nav.link {
-    cursor: default;
+    cursor: context-menu;
 }
 
 button:disabled.country-nav-button {
