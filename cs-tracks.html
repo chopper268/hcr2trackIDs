@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -7,13 +8,45 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="top">
-        <div class="menu">
-            <a class="menu-link" href="./">Home</a> -
-            <a class="menu-link" href="themes/">Themes</a> -
-            <a class="menu-link" href="cs-tracks.html">Community showcase</a> -
-            <a class="menu-link" href="https://github.com/chopper268/">GitHub</a>
+    <div class="main-content">
+        <div class="top">
+            <div class="menu">
+                <a class="menu-link" href="./">Home</a> -
+                <a class="menu-link" href="themes/">Themes</a> -
+                <a class="menu-link" href="cs-tracks.html">Community showcase</a> -
+                <a class="menu-link" href="https://github.com/chopper268/">GitHub</a>
+            </div>
+            <div class="title">
+
+                <h1>HCR2 track ID list</h1>
+                <div style="margin-left: 20px; min-width: 161px; max-width: 300px;" id="yt-masthead-content">
+                    <form id="masthead-search" class="  search-form consolidated-form  vve-check"
+                        action="playhcr://play/track"
+                        onsubmit="if (document.getElementById('masthead-search-term').value == '') return false;"
+                        data-clicktracking="" data-visibility-tracking="">
+                        <button style="border-radius: 0px 16px 16px 0px;"
+                            class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button"
+                            type="submit"
+                            onclick="if (document.getElementById('masthead-search-term').value == '') return false; document.getElementById('masthead-search').submit(); return false;;return true;"
+                            dir="ltr" id="search-btn" tabindex="2">
+                            <span class="yt-uix-button-content">
+                                Search
+                            </span>
+
+                        </button>
+                        <div style="border-radius: 16px 0px 0px 16px;" id="masthead-search-terms"
+                            class="masthead-search-terms-border" dir="ltr"><input id="masthead-search-term"
+                                autocomplete="off"
+                                onkeydown="if (!this.value &amp;&amp; (event.keyCode == 40 || event.keyCode == 32 || event.keyCode == 34)) {this.onkeydown = null; this.blur();}"
+                                class="search-term masthead-search-renderer-input yt-uix-form-input-bidi" name="id"
+                                value="" type="text" tabindex="1" placeholder="Enter ID"
+                                title="Enter ID to download track" aria-label="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
     <p>This page is under construction. Check back later.</p>
@@ -22,4 +55,5 @@
         <li class="step">Coding cs-tracks.html...</li>
     </ol>
 </body>
+
 </html>
