@@ -13,21 +13,23 @@
 
 <body id="main" onload="startTime(); loadingComplete()">
     <noscript>
-        <div class="js-none">
-            <div class="no-js-icon">
-                <svg class="err-icon" fill="#fff" viewBox="0 0 48 48">
-                    <path d="M0 0h48v48H0V0z" fill="none"></path>
-                    <path
-                        d="M22 30h4v4h-4zm0-16h4v12h-4zm1.99-10C12.94 4 4 12.95 4 24s8.94 20 19.99 20S44 35.05 44 24 35.04 4 23.99 4zM24 40c-8.84 0-16-7.16-16-16S15.16 8 24 8s16 7.16 16 16-7.16 16-16 16z"
-                        fill-opacity="0.7">
-                    </path>
-                </svg>
-            </div>
-            <h3>
-                <p>Javascript is disabled on your browser.</p>
-                <p>Enable Javascript and <a href="cs-tracks.html">try again</a>.</p>
-            </h3>
-        </div>
+        <style>
+            #loading {
+                display: none;
+            }
+
+            #yt-masthead-content {
+                display: none;
+            }
+
+            .real-time {
+                display: none !important;
+            }
+
+            .show-hide-news {
+                display: none !important;
+            }
+        </style>
     </noscript>
     <div id="loading">
         <pre id="text-loading">loading...</pre>
@@ -44,6 +46,19 @@
                     <a class="menu-link" href="cs-tracks.html">Community showcase</a> -
                     <a class="menu-link" href="https://github.com/chopper268/">GitHub</a>
                 </div>
+                <noscript>
+                    <div class="no-js"
+                        style="font-family: Roboto, Arial, Helvetica, sans-serif; align-items: center; background-color: rgb(180, 0, 0); display: flex; color: white; font-weight: bold;">
+                        <div style="display: flex; align-items: center;" class="ytp-error-icon-container"><svg
+                                style="width: 32px; height: 32px;" fill="#fff" viewBox="0 0 48 48">
+                                <path d="M0 0h48v48H0V0z" fill="none"></path>
+                                <path
+                                    d="M22 30h4v4h-4zm0-16h4v12h-4zm1.99-10C12.94 4 4 12.95 4 24s8.94 20 19.99 20S44 35.05 44 24 35.04 4 23.99 4zM24 40c-8.84 0-16-7.16-16-16S15.16 8 24 8s16 7.16 16 16-7.16 16-16 16z"
+                                    fill="#fff"></path>
+                            </svg></div>
+                        <text style="margin: 5px;" class="no-js-available">Javascript is disabled in your browser. Some features may be disabled.</text>
+                    </div>
+                </noscript>
                 <div class="title">
 
                     <h1>HCR2 track ID list</h1>
