@@ -1002,3 +1002,8 @@ a.country-nav.link {
 button:disabled.country-nav-button {
     cursor: not-allowed;
 }
+
+.cs-track-list {
+    display: flex;
+    flex-direction: column;
+}
