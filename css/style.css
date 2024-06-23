@@ -1008,3 +1008,9 @@ button:disabled.country-nav-button {
     flex-direction: column;
     justify-content: center;
 }
+
+h1.cs-track-title {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
