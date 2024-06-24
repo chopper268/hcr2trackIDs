@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+
 button {
     background-color: #008ae6;
     border-radius: 10px;
@@ -1020,5 +1022,3 @@ h1.cs-track-title {
   font-weight: 400;
   font-style: normal;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
