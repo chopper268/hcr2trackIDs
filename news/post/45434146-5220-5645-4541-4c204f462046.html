@@ -15,18 +15,21 @@
             grid-area: memberonly;
         }
 
-        div[video-play]{
-            gap: 0;        
+        div[video-play] {
+            gap: 0;
             grid-template-areas:
                 'memberonly memberonly'
                 'videoplaycontent videodesc';
         }
 
-        @media screen and (max-width:948px){
-            div.video-play-content, div.video-desc{
+        @media screen and (max-width:948px) {
+
+            div.video-play-content,
+            div.video-desc {
                 justify-content: center;
             }
-            div.video-desc{
+
+            div.video-desc {
                 display: flex;
             }
         }
@@ -67,6 +70,17 @@
         <div class="navigation">
             <a class="button-text" href="../../news.html"><button id="button">News</button></a> >
             <button disabled id="disabled-button">45434146-5220-5645-4541-4c204f462046</button>
+        </div>
+        <div class="no-js"
+            style="font-family: Roboto, Arial, Helvetica, sans-serif; align-items: center; background-color: rgb(180, 0, 0); display: flex; color: white; font-weight: bold;">
+            <div style="display: flex; align-items: center;" class="ytp-error-icon-container"><svg
+                    style="width: 32px; height: 32px;" fill="#fff" viewBox="0 0 48 48">
+                    <path d="M0 0h48v48H0V0z" fill="none"></path>
+                    <path
+                        d="M22 30h4v4h-4zm0-16h4v12h-4zm1.99-10C12.94 4 4 12.95 4 24s8.94 20 19.99 20S44 35.05 44 24 35.04 4 23.99 4zM24 40c-8.84 0-16-7.16-16-16S15.16 8 24 8s16 7.16 16 16-7.16 16-16 16z"
+                        fill="#fff"></path>
+                </svg></div>
+            <text style="margin: 5px;" class="no-js-available">Video unavailable: This video is unavailable</text>
         </div>
     </div>
     <div class="posts">
