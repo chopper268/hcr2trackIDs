@@ -1022,3 +1022,8 @@ h1.cs-track-title {
   font-weight: 400;
   font-style: normal;
 }
+
+.year-2024-title>h2.year-2024-title,
+.year-2023-title>h2.year-2023-title {
+    color: #fff;
+}
