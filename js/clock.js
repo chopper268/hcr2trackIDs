@@ -14,7 +14,7 @@ function checkTime(i) {
     return i;
 }
 
-const clockStart = document.getElementById('main')
+const clockStart = document.body
 clockStart.addEventListener('load', () => {
     startTime()
 })
