@@ -15,4 +15,6 @@ function checkTime(i) {
 }
 
 const clockStart = document.getElementById('main')
-clockStart.addEventListener(onload, () => startTime())
+clockStart.addEventListener('load', () => {
+    startTime()
+})
