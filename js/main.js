@@ -65,4 +65,4 @@ function loadingComplete() {
 
 const completeLoad =
     document.body
-completeLoad.addEventListener('load', () => loadingComplete())
+completeLoad.addEventListener('load', () => loadingComplete)
