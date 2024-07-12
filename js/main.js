@@ -62,3 +62,5 @@ function loadingComplete() {
         document.getElementById('loading').style.display = "none"
     }, 600);
 }
+
+document.body.addEventListener('load', () => {startTime()})
