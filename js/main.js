@@ -62,3 +62,7 @@ function loadingComplete() {
         document.getElementById('loading').style.display = "none"
     }, 600);
 }
+
+const completeLoad =
+    document.body
+completeLoad.addEventListener('load', () => loadingComplete())
