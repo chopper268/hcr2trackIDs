@@ -13,8 +13,3 @@ function checkTime(i) {
     if (i < 10) { i = "0" + i };
     return i;
 }
-
-const clockStart = document.body
-clockStart.addEventListener('load', () => {
-    startTime()
-})
