@@ -622,6 +622,11 @@ button.qr-code-content-top-close-button {
     border: unset;
 }
 
+button.qr-code-content-top-close-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 200ms;
+}
+
 img.qr-code {
     width: 180px;
     height: 180px;

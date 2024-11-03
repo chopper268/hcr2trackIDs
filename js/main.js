@@ -44,14 +44,6 @@ function qrCodeOpenhttpsplayhcrcominviteidqxN5Vr() {
     document.getElementById('qr-code-https%3A%2F%2Fplayhcr.com%2Finvite%3Fid%3DqxN5Vr').style.display = "block"
 }
 
-function qrCodeCloseOnhover() {
-    document.getElementById('qr-code-content-top-close-button').style.backgroundColor = "red"
-}
-
-function qrCodeCloseOnhoverEnd() {
-    document.getElementById('qr-code-content-top-close-button').style.backgroundColor = "#00000033"
-}
-
 function loadingComplete() {
     let loadComplete =
         document.getElementById('loading')
