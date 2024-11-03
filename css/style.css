@@ -623,7 +623,7 @@ button.qr-code-content-top-close-button {
 }
 
 button.qr-code-content-top-close-button:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: red;
     transition: background-color 200ms;
 }
 
